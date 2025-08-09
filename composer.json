@@ -1,0 +1,18 @@
+{
+	"name": "mgusmano/seedgen",
+	"description": "seedgen by mgusmano",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "mgusmano",
+			"email": "mgusmano@yahoo.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"mgusmano\\seedgen\\": "src/"
+		}
+	},
+	"require": {}
+}
