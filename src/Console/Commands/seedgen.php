@@ -1,6 +1,6 @@
 <?php
 
-namespace mgusmano\seedgen\Console\Commands;
+namespace Mgusmano\Seedgen\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
