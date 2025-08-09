@@ -14,5 +14,18 @@
 			"mgusmano\\seedgen\\": "src/"
 		}
 	},
+	"scripts": {
+		"post-autoload-dump": [
+			"@php vendor/bin/testbench package:discover --ansi"
+		]
+	},
+	"config": {
+		"preferred-install": "dist",
+		"sort-packages": true,
+		"optimize-autoloader": true,
+		"allow-plugins": {
+			"php-http/discovery": true
+		}
+	},
 	"require": {}
 }
