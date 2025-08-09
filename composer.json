@@ -27,5 +27,12 @@
 			"php-http/discovery": true
 		}
 	},
-	"require": {}
+	"require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Mgusmano\\Seedgen\\SeedgenServiceProvider"
+			]
+		}
+	}
 }
